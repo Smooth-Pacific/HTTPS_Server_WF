@@ -25,7 +25,6 @@
 #include <fstream>
 #include <sstream>
 
-const int SMALL_CONSTANT = 2;
 
 
 class config_keeper
@@ -161,6 +160,42 @@ public:
      	}
 };
 
+class file_read_resource : public httpserver::http_resource
+{
+	public:
+	const std::shared_ptr<httpserver::http_response> render(const httpserver::http_request&)
+	{
+		std::string content = "Default Content\n";
+		std::fstream instream;
+		instream.open("content.txt");
+		if (instream.is_open())
+		{
+			std::getline(instream, content);
+			instream.close();
+		}
+		return std::shared_ptr<httpserver::http_response>(new httpserver::string_response(content));
+	}
+};
+
+
+class file_resource : public httpserver::http_resource
+{
+	public:
+	std::string content_path;
+	std::string content_type;
+
+	//default constructor
+	file_resource():content_path("content.txt"), content_type("text/plain"){}
+
+	//useful constructor
+	file_resource(std::string i_path, std::string i_type): content_path(i_path), content_type(i_type){}
+
+	const std::shared_ptr<httpserver::http_response> render_GET(const httpserver::http_request&)
+	{
+		return std::shared_ptr<httpserver::file_response>(new httpserver::file_response(content_path, 200, content_type));
+	}
+};
+
 #define MY_OPAQUE "11733b200778ce33060f31c9af70a870ba96ddd4"
 
 class digest_resource : public httpserver::http_resource {
@@ -209,11 +244,14 @@ int main()
 	bool server_alive = false;
 	// NOTE: member functions like ".use_dual_stack()" are private in webserver, but NOT in create webserver, so these functions can be called as part of the webserver = create_webserver()... chain, but NOT on the webserver afterward.
 
+	const int SMALL_CONSTANT = 2;
 	int max_threads = std::thread::hardware_concurrency() * SMALL_CONSTANT;
 	httpserver::http::http_utils::start_method_T start_method = httpserver::http::http_utils::INTERNAL_SELECT;
 	int timeout = 180;		//default value
 	int memory_limit = 32 * 1024;	//default value of 32kb
 	int max_conns = FD_SETSIZE - 4;
+	std::string key_location = "newkey.pem";
+	std::string cert_location = "newcert.crt";
 	//create the webserver via copy constructor of a create_webserver object. The functions in the chain following each return a reference to the create_webserver object that called them, enabling the chaining behavior seen here
 	httpserver::webserver ws = httpserver::create_webserver(8080)
 	.start_method(start_method)	// this is the default value, but I want it to be explicit
@@ -222,8 +260,8 @@ int main()
 	.connection_timeout(timeout)
 	.memory_limit(memory_limit)
 	.max_connections(max_conns)
-	.https_mem_key("newkey.pem")	// use different key later
-	.https_mem_cert("newcert.crt")	// use difference cert later
+	.https_mem_key(key_location)
+	.https_mem_cert(cert_location)
 	.use_dual_stack();
 
 
@@ -231,6 +269,18 @@ int main()
 	ws.register_resource("/hello", &hwr);
 	digest_resource dgr;
 	ws.register_resource("/dig", &dgr);
+//	file_read_resource frr;
+//	ws.register_resource("/content", &frr);
+	
+	//all files referenced here are present in the folder from which I am running the utopia server, even if I'm not copying them to Github. "html.txt" calls the image from the server itself though, at /content/ralph
+//	file_resource flr("content.txt", "text/plain");
+//	ws.register_resource("/content", &flr);
+	file_resource flr2("ralph.png","image/png");
+	file_resource flr3("endpoint.jpg", "image/jpg");
+	ws.register_resource("/content/ralph", &flr2);
+	ws.register_resource("/content/endpoint", &flr3);
+	file_resource flr4("html.txt", "text/html");
+	ws.register_resource("/content", &flr4);
 
 	std::thread servthread([&](){ws.start(true);});
 	//will need a better system for setting server_alive to true or not, based on actual response from the server, but for now, hard-code it
