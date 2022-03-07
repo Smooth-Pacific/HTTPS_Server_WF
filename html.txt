@@ -1,0 +1,23 @@
+<p> So I'm pretty sure we don't really need to worry about endpoints </p>
+<p> At least, we can deliver files, such as text, html, and images without directly interfacing with endpoints, using only the httpserver::file_response function. It's actually stupidly easy.</p>
+<p> </p>
+<p>class file_resource : public httpserver::http_resource
+<br>{
+<br>public:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;std::string content_path;
+<br>&nbsp;&nbsp;&nbsp;&nbsp;std::string content_type;
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;//constructor
+<br>&nbsp;&nbsp;&nbsp;&nbsp;file_resource(std::string i_path, std::string i_type): content_path(i_path), content_type(i_type){}
+<br>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;const std::shared_ptr<httpserver::http_response> render_GET(const httpserver::http_request&)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;{
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return std::shared_ptr<httpserver::file_response>(new httpserver::file_response(content_path, 200, content_type));
+<br>&nbsp;&nbsp;&nbsp;&nbsp;}
+<br> };
+
+<p> This page exists using just the above class, a single .txt being interpreted as html, and a few images that are also registered using the same class <br>
+There may be some value in endpoints for measuring throughput, but I suspect there's probably a simpler solution for that as well</p>
+<p> <br> <a href="/content/endpoint">This link is not a virus, really. For realz!</a><br></p>
+<p> <br> <a href="https://github.com/Smooth-Pacific/HTTPS_Server_WF/blob/feature/utpsrv.cpp"> Full code of server currently running this webpage:</a></p>
+<img src="/content/ralph" alt="Endpoints are for chumps">

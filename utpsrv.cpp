@@ -25,176 +25,9 @@
 #include <fstream>
 #include <sstream>
 
-
-
-class config_keeper
-{
-	public:
-	class config_proxy
-	{
-		private:
-			bool can_make_num(std::string input)
-			{
-				//define this later
-				return false;
-			}
-
-			int do_make_num(std::string input)
-			{
-				//also define this later
-				return 0;
-			}
-		public:
-		// I can add more datatypes to the proxy as needed
-		// each datatype needs a member, a constructor, a set function, and a cast operator
-		std::string str;
-		int n;
-
-		config_proxy(std::string input):str(input){}
-		config_proxy(int input):n(input){}
-		
-		void set_explicit_string(std::string input)
-		{
-			str = input;
-		}
-		void set(std::string input)
-		{
-			if(can_make_num(input))
-			{
-				set(do_make_num(input));
-			}
-			else
-			{
-				str = input;
-			}
-		}
-		void set(int input)
-		{
-			n = input;
-		}
-
-		operator std::string() const
-		{
-			return str;
-		}
-		operator int() const
-		{
-			return n;
-		}
-	};
-
-	std::map<std::string, config_proxy> configs;
-	config_keeper()
-	{
-		//might later need to find a way to add the pointers, but that seems unlikely
-		configs.emplace("port", 80);
-		configs.emplace("max_threads", 0);
-		configs.emplace("max_connections", 0);
-		configs.emplace("memory_limit", 0);
-		configs.emplace("content_size_limit", -1);
-		configs.emplace("connection_timeout", 2000);
-		configs.emplace("per_IP_connection_limit", 0);
-		//configs.emplace("log_access_ptr", nullptr);
-		configs.emplace("bind_socket", 0);
-		configs.emplace("max_thread_stack_size", 0);
-		configs.emplace("use_ssl", true);
-		configs.emplace("use_ipv6", false);
-		configs.emplace("use_dual_stack", false);
-		configs.emplace("debug", false);
-		configs.emplace("pedantic", false);
-		configs.emplace("https_mem_key", "");
-		configs.emplace("https_mem_cert", "");
-		configs.emplace("https_mem_trust", "");
-		configs.emplace("https_priorities", "");
-		configs.emplace("digest_auth_random", "");
-		configs.emplace("nonce_nc_size", 0);
-		configs.emplace("basic_auth_enabled", true);
-		configs.emplace("digest_auth_enabled", true);
-		configs.emplace("regex_checking", true);
-		configs.emplace("ban_system_enabled", true);
-		configs.emplace("post_process_enabled", true);
-		configs.emplace("deferred_enabled", false);
-		configs.emplace("single_resource", false);
-		configs.emplace("tcp_nodelay", false);
-	}
-	void read_file()
-	{
-		std::ifstream configvals;
-		configvals.open("config.txt");
-		if(!configvals.is_open())
-		{
-			return;
-		}
-		std::string raw_data;
-	//	std::stringstream data;
-		std::string key;
-		std::string equals;
-		std::string value;
-		std::map<std::string, config_proxy>::iterator iter;
-
-		while(getline(configvals, raw_data))
-		{
-			std::stringstream data;
-			data.str(raw_data);	//why was this not enough by itself. Why did I need to have data leave and re-enter scope to purge its existing data?
-			data >> key >> equals >> value;
-
-			iter = configs.find(key);
-			if(iter != configs.end())
-			{
-				iter->second.set(value);
-			}
-		}
-	}
-};
-
-
-
-
-
-class hello_world_resource : public httpserver::http_resource 
-{
-public:
-	const std::shared_ptr<httpserver::http_response> render(const httpserver::http_request&)
-	{
-        	return std::shared_ptr<httpserver::http_response>(new httpserver::string_response("Hello, World!\n"));
-     	}
-};
-
-class file_read_resource : public httpserver::http_resource
-{
-	public:
-	const std::shared_ptr<httpserver::http_response> render(const httpserver::http_request&)
-	{
-		std::string content = "Default Content\n";
-		std::fstream instream;
-		instream.open("content.txt");
-		if (instream.is_open())
-		{
-			std::getline(instream, content);
-			instream.close();
-		}
-		return std::shared_ptr<httpserver::http_response>(new httpserver::string_response(content));
-	}
-};
-
-
-class file_resource : public httpserver::http_resource
-{
-	public:
-	std::string content_path;
-	std::string content_type;
-
-	//default constructor
-	file_resource():content_path("content.txt"), content_type("text/plain"){}
-
-	//useful constructor
-	file_resource(std::string i_path, std::string i_type): content_path(i_path), content_type(i_type){}
-
-	const std::shared_ptr<httpserver::http_response> render_GET(const httpserver::http_request&)
-	{
-		return std::shared_ptr<httpserver::file_response>(new httpserver::file_response(content_path, 200, content_type));
-	}
-};
+#include "Headers/config.hpp"
+#include "Headers/srvlog.hpp"
+#include "Headers/file_resource.hpp"
 
 #define MY_OPAQUE "11733b200778ce33060f31c9af70a870ba96ddd4"
 
@@ -205,7 +38,7 @@ class digest_resource : public httpserver::http_resource {
              return std::shared_ptr<httpserver::digest_auth_fail_response>(new httpserver::digest_auth_fail_response("FAIL-opaque", "weston", MY_OPAQUE, true));
          } else {
              bool reload_nonce = false;
-             if (!req.check_digest_auth("weston", "kitty", 300, &reload_nonce)) {
+             if (!req.check_digest_auth("weston", "demo", 300, &reload_nonce)) {
                  return std::shared_ptr<httpserver::digest_auth_fail_response>(new httpserver::digest_auth_fail_response("FAIL-opaque-usr/pass", "weston", MY_OPAQUE, reload_nonce));
              }
          }
@@ -215,7 +48,7 @@ class digest_resource : public httpserver::http_resource {
 
 void monitor_performance(bool& server_alive)
 {
-	std::cout << "performance monitoring called" << std::endl;
+/*	std::cout << "performance monitoring called" << std::endl;
 	std::ofstream log;
 	log.open("log.txt");
 	if(!log.is_open())
@@ -230,7 +63,7 @@ void monitor_performance(bool& server_alive)
 	{
 		//monitor performance here
 	}
-}
+*/}
 
 
 
@@ -252,6 +85,7 @@ int main()
 	int max_conns = FD_SETSIZE - 4;
 	std::string key_location = "newkey.pem";
 	std::string cert_location = "newcert.crt";
+	
 	//create the webserver via copy constructor of a create_webserver object. The functions in the chain following each return a reference to the create_webserver object that called them, enabling the chaining behavior seen here
 	httpserver::webserver ws = httpserver::create_webserver(8080)
 	.start_method(start_method)	// this is the default value, but I want it to be explicit
@@ -265,8 +99,6 @@ int main()
 	.use_dual_stack();
 
 
-	hello_world_resource hwr;
-	ws.register_resource("/hello", &hwr);
 	digest_resource dgr;
 	ws.register_resource("/dig", &dgr);
 //	file_read_resource frr;
