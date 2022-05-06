@@ -1,0 +1,5 @@
+<transaction types>
+	<transaction_type>Swipe Transaction</transaction_type>
+	<transaction_type>Online Transaction</transaction_type>
+	<transaction_type>Chip Transaction</transaction_type>
+</transaction types>

@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+body {
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 32px;
+}
+
+p {
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Warning: Improper configurations settings could damage or disable the server!</h1>
+
+<form action="/config" method="POST" target="_self">
+	<label for="connection_timeout">Connection Timeout (ms):</label><br>
+	<input type="number" id="connection_timeout" name="connection_timeout" value="2000"><br>
+	
+	<label for="max_connections">Max Connections:</label><br>
+	<input type="number" id="max_connections" name="max_connections" value="1020"><br><br>
+	
+	<label for="max_threads">Max Threads:</label><br>
+	<input type="number" id="max_threads" name="max_threads" value="16"><br>
+	
+	<label for="memory_limit">Memory Limit (kb):</label><br>
+	<input type="number" id="memory_limit" name="memory_limit" value="32"><br><br>
+	
+	<label for="key_location">Key Location:</label><br>
+	<input type="file" id="key_location" name="key_location" value=""><br>
+	
+	<label for="cert_location">Certificate Location:</label><br>
+	<input type="file" id="cert_location" name="cert_location" value=""><br><br>
+
+	<input type="hidden" id="reset" value="0">
+	<input type="submit" value="Submit">
+</form>
+<p>
+Configuration setting changes will take effect the next time the server is started.
+</p>
+<form action="/config" method="POST" target="_self">
+	<button type="submit" name="reset" value="1">Reset to Defaults</button>
+</form>
+
+</body>

@@ -40,7 +40,7 @@ class serv_log_bot
 		{
 			if(output.is_open())
 			{	
-				output << "[NOTE] " << wfutp::GetTime() << "\n" << "Logging session end\n" << std::endl;
+				output << "[NOTE] " << GetNowTime() << "\n" << "Logging session end\n" << std::endl;
 			}
 			output.close();
 		}
@@ -52,21 +52,21 @@ class serv_log_bot
 //			output.open(filepath + filename, std::ios::app);
 
 			if(!output.is_open()) throw log_not_open();
-			output << "[NOTE] " << wfutp::GetTime() << "\n" << "Logging session start\n" << std::endl;
+			output << "[NOTE] " << GetNowTime() << "\n" << "Logging session start\n" << std::endl;
 		}
 
 	public:
 		void log_good(const httpserver::http_request& req)
 		{
-			output << "[GOOD] " << wfutp::GetTime() << "\n" << req << std::endl;
+			output << "[GOOD] " << GetNowTime() << "\n" << req << std::endl;
 		}
 		void log_fail(const httpserver::http_request& req)
 		{
-			output << "[FAIL] " << wfutp::GetTime() << "\n" << req << std::endl;
+			output << "[FAIL] " << GetNowTime() << "\n" << req << std::endl;
 		}
 		void log_note(const httpserver::http_request& req) 
 		{
-			output << "[NOTE] " << wfutp::GetTime() << "\n" << req << std::endl;
+			output << "[NOTE] " << GetNowTime() << "\n" << req << std::endl;
 		}
 };
 

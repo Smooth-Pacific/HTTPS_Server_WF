@@ -1,0 +1,569 @@
+[NOTE] Wed May  4 07:31:12 2022
+Logging session start
+
+[NOTE] Wed May  4 07:31:15 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:31:21 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over $100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:31:24 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transaction types.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:31:34 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over $100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:31:58 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over $100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:33:42 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:33:43 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:37:27 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:37:30 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique merchants.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:37:32 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:37:38 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique merchants.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:41:13 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:41:34 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:44:57 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:01 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:05 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transaction types.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:07 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top five zip codes by transaction count.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:11 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top ten transactions by value.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:14 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique users.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:18 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"percentage of users with at least one insufficient balance error.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:31 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"percentage of users with more than one insufficient balance error.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:34 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"bottom five months for online transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:42 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 5 cities with the largest number of transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:51 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"percentage of transactions that were fraudulent.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:45:59 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique merchants.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:46:04 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 10 cities by number of resident merchants with online transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:46:13 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 5 merchants by number of insufficient balance and no other errors.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 29846 ]
+
+[NOTE] Wed May  4 07:46:57 2022
+Logging session start
+
+[NOTE] Wed May  4 07:47:01 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:47:08 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:47:40 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transaction types.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:47:43 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top five zip codes by transaction count.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:47:47 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top ten transactions by value.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:47:52 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique users.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:48:00 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"percentage of users with at least one insufficient balance error.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:48:09 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"percentage of users with more than one insufficient balance error.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:48:53 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:48:57 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique users.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:49:00 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"bottom five months for online transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:49:05 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 5 cities with the largest number of transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:49:17 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"percentage of transactions that were fraudulent.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:49:24 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"unique merchants.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:49:31 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 10 cities by number of resident merchants with online transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 07:49:43 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 5 merchants by number of insufficient balance and no other errors.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 48278 ]
+
+[NOTE] Wed May  4 08:04:23 2022
+Logging session start
+
+[NOTE] Wed May  4 08:04:40 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 58006 ]
+
+[NOTE] Wed May  4 08:06:20 2022
+Logging session start
+
+[NOTE] Wed May  4 08:06:25 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="f55652f5dfc1ea8a3f812463277a647c00000013", uri="/reports", algorithm=MD5, response="90956330820a1abfc46bb33cb1b1c9ea", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000003, cnonce="59051c5f0582f53b"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 60566 ]
+
+[NOTE] Wed May  4 08:08:30 2022
+Logging session start
+
+[NOTE] Wed May  4 08:08:35 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="db2402d0e136e1fb9263f3d4db1a2a0100000009", uri="/reports", algorithm=MD5, response="744f1df6492b4190b8ce0cfeb32d4e98", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000003, cnonce="471703a9e430453e"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:08:35 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="61b163500cefe5413e3f18e67da9b92a00000005", uri="/reports", algorithm=MD5, response="e86030db50e181a234eb4079701b3e3f", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000001, cnonce="84e54f5f10e132b0"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:08:41 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="61b163500cefe5413e3f18e67da9b92a00000005", uri="/reports", algorithm=MD5, response="0a1476eb6341f0cb411f83478fd41e9c", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="e312e64700558f75"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:08:54 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="b2b78f8810d15978aa6b3a65b3ff3baf0000000f", uri="/reports", algorithm=MD5, response="38fd3d980ef812a9c5d48670f8f46415", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="e9f33bbf51b74cce"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:08:54 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="419638588a5944e57be2b597d41b144200000017", uri="/reports", algorithm=MD5, response="bcb1044ea2d84b657c493095bfe20d5a", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000001, cnonce="34b76295f6475822"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:09:01 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="419638588a5944e57be2b597d41b144200000017", uri="/reports", algorithm=MD5, response="a9a9f9a43644ce23e1dd0c2c26332ea7", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="642669f98a8aefca"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:09:17 2022
+GET Request [user:"" pass:""] path:"/index"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="92171e6b2235bf7eafc0ef8eabb240fc00000023", uri="/index", algorithm=MD5, response="743e7104417a5717749d51e2779184fa", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="680d45ac8e70a64a"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:09:19 2022
+GET Request [user:"" pass:""] path:"/index"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="92171e6b2235bf7eafc0ef8eabb240fc00000023", uri="/index", algorithm=MD5, response="da7e42132233c0c5047e954310a0d5bb", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000003, cnonce="902e573d730f592e"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 63126 ]
+
+[NOTE] Wed May  4 08:09:28 2022
+Logging session start
+
+[NOTE] Wed May  4 08:09:31 2022
+GET Request [user:"" pass:""] path:"/index"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="92171e6b2235bf7eafc0ef8eabb240fc00000023", uri="/index", algorithm=MD5, response="3c7b265dd79c92219f19588ad2c4b0ce", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000004, cnonce="89efa6328563941e"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 7319 ]
+
+[NOTE] Wed May  4 08:09:36 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="92171e6b2235bf7eafc0ef8eabb240fc00000023", uri="/reports", algorithm=MD5, response="2bab6bfcafb3156eb9ad53a4ef61ee83", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000005, cnonce="3b2a9fbaee0be0e0"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 7319 ]
+
+[NOTE] Wed May  4 08:09:36 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="b562231d3da04f6722d21850194cba2000000008", uri="/reports", algorithm=MD5, response="33587cf052e5e56e73198244ade00ee1", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000001, cnonce="f30783e1177f904f"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 7319 ]
+
+[NOTE] Wed May  4 08:11:30 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="11aae386f0e614658577001aea1028490000000e", uri="/reports", algorithm=MD5, response="68c1554798cff5e96d97f50fd76b6079", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000005, cnonce="fb431d56275a8767"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 7319 ]
+
+[NOTE] Wed May  4 08:11:30 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="2c176b084ccdc9483b44c23b8a73c2c10000007a", uri="/reports", algorithm=MD5, response="bd9739330973e05ad87651934be58481", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000001, cnonce="b5d50b82ef8287ab"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 7319 ]
+
+[NOTE] Wed May  4 08:12:24 2022
+GET Request [user:"" pass:""] path:"/index"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="2c176b084ccdc9483b44c23b8a73c2c10000007a", uri="/index", algorithm=MD5, response="055ff931b1829652770679410c7625fb", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="b877ae79c95e02be"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 7319 ]
+
+[NOTE] Wed May  4 08:12:38 2022
+Logging session start
+
+[NOTE] Wed May  4 08:12:51 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="3ded2172641d324cd5083d22f239418f00000007", uri="/reports", algorithm=MD5, response="14f15c9c2f08f1b0d4b0ecda6801ebcb", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="f7461f8567ad6794"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 12951 ]
+
+[NOTE] Wed May  4 08:12:51 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="098b66359f741bc4b58ed06858532ebe", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000001, cnonce="e1644d0f17fbfa20"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 12951 ]
+
+[NOTE] Wed May  4 08:13:17 2022
+Logging session start
+
+[NOTE] Wed May  4 08:13:21 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="015d04d9a39d54617e4513cb1ae73cb8", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000002, cnonce="d71094bcb6f5c81a"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 14999 ]
+
+[NOTE] Wed May  4 08:13:22 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transactions+after+8pm+with+a+value+over+100.XML", algorithm=MD5, response="3a4a945104953cf920e331e274c29ec2", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000003, cnonce="8249278c232ce53e"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 14999 ]
+
+[NOTE] Wed May  4 09:24:21 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transactions+after+8pm+with+a+value+over+100.XML", algorithm=MD5, response="940c023652bfe2ce6ef44d380d470ae0", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000004, cnonce="b1577d8838a67821"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:27:43 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="344b425b4641049353bbb9aa0a85d219", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000005, cnonce="0b3f2281f55d9dc8"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:27:44 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="40e4a11daaa9f47c4958e2b3974530e3", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000007, cnonce="a48858e56fafbd45"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:27:56 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="5aca672ad85ee1a4ca65ac22aaa0f8f4", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000009, cnonce="8bff3de25dc61fa0"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:28:28 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="35c2e6351b1c6652ed8460777e9f4479", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000000b, cnonce="3f9cf05ffd88bb01"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:29:55 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="384179d848bf5447dc35f5bb0d14d8cc", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000000d, cnonce="1410c7e94e8d5660"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:29:57 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="5c18bebe574a431df6921981339becdf", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000000f, cnonce="559e4b5ef531cacc"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:30:53 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="4961c9995453b8afbd6b450fd8899fd5", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000011, cnonce="edbabee730451ff3"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:34:54 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="217cefa0fc20fde24cc4526ff5d8c936", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000013, cnonce="50ea0a0eff67792b"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:35:08 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="6877d563692eb05f16eb5b2cbad99e16", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000015, cnonce="210a164c452ab7ee"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:35:21 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="fc607288949892dc8872b2de96e0fb79", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000017, cnonce="9a708de18ce03788"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:36:00 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="faa870f5495b8d7ce2cdf9f35de31326", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000019, cnonce="62f941c19e3235fe"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:36:04 2022
+GET Request [user:"" pass:""] path:"/content/example_1"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_1", algorithm=MD5, response="342f4568d89e8d33fd00da00c07ced93", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000001b, cnonce="ec6cf9832030b5ac"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:38:12 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="83c5efaa165afb5eebf368a476633500", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000001c, cnonce="74a47053653ee789"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:38:14 2022
+GET Request [user:"" pass:""] path:"/content/example_1"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_1", algorithm=MD5, response="19f667ece48b8c6d164dca220bdd445c", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000001d, cnonce="c29064c20ff34d9d"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:38:15 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="9e175ec38dc3b463d6bb3b86fdb1ec55", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000001e, cnonce="19b09c1bd6d2e690"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:38:18 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="aa1f5268e9508b3397232f1072681759", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000001f, cnonce="e3babdeb55166c17"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:39:07 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="d49eb4bad852a9a56a6742c290f7684d", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000020, cnonce="7ba8d444e58575f2"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:39:23 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="d0aae86383f182993a00646d02db34f5", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000021, cnonce="3f032401ff3cba82"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:39:56 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="3287b1bc701fcde26363bdb2fa928d86", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000023, cnonce="e19f347d7263918d"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:39:57 2022
+GET Request [user:"" pass:""] path:"/content/example_1"
+    Headers [Host:"76.121.52.252:8080" Accept:"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_1", algorithm=MD5, response="91b424b65b6f71b466e961ea07bc7381", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000024, cnonce="d7805f81468b6468"" Sec-Fetch-Dest:"image" Sec-Fetch-Mode:"no-cors" Sec-Fetch-Site:"same-origin" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:41:10 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="937de7504bc34aa71677916889a93961", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000025, cnonce="77341cc2de1ce911"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:41:10 2022
+GET Request [user:"" pass:""] path:"/content/example_1"
+    Headers [Host:"76.121.52.252:8080" Accept:"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_1", algorithm=MD5, response="2b3e663904154f1e90be20839c8eea20", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000026, cnonce="aae92104731f00e8"" Sec-Fetch-Dest:"image" Sec-Fetch-Mode:"no-cors" Sec-Fetch-Site:"same-origin" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:42:05 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="043d35c900712a2c0c5f011c1b3afe59", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000027, cnonce="8b5910dcc7b2a3a0"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:42:06 2022
+GET Request [user:"" pass:""] path:"/content/example_1"
+    Headers [Host:"76.121.52.252:8080" Accept:"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_1", algorithm=MD5, response="1a04f7296189a46375517e8adffe5f8c", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000028, cnonce="5d75fd4d7faf2b75"" Sec-Fetch-Dest:"image" Sec-Fetch-Mode:"no-cors" Sec-Fetch-Site:"same-origin" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:44:17 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="9ed136e32336bb4df5b3599eddcd401b", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000029, cnonce="9d2596b51b49de95"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 09:44:17 2022
+GET Request [user:"" pass:""] path:"/content/example_2"
+    Headers [Host:"76.121.52.252:8080" Accept:"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_2", algorithm=MD5, response="dca3f945623441dec43935dfded08c44", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000002a, cnonce="e41c9b5e3ca4c6a4"" Sec-Fetch-Dest:"image" Sec-Fetch-Mode:"no-cors" Sec-Fetch-Site:"same-origin" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 18071 ]
+
+[NOTE] Wed May  4 11:51:24 2022
+GET Request [user:"" pass:""] path:"/reports"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/reports", algorithm=MD5, response="b73db81cb4bc1b63f53d1e7bb8d5ff65", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000002b, cnonce="ed592fa685b418d8"" Cache-Control:"max-age=0" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"none" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 44183 ]
+
+[NOTE] Wed May  4 11:51:24 2022
+GET Request [user:"" pass:""] path:"/content/example_2"
+    Headers [Host:"76.121.52.252:8080" Accept:"image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/content/example_2", algorithm=MD5, response="eab57c2d8ca77438e21037b7906b61a0", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000002c, cnonce="1d4794371ad9c397"" Sec-Fetch-Dest:"image" Sec-Fetch-Mode:"no-cors" Sec-Fetch-Site:"same-origin" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 44183 ]
+
+[NOTE] Wed May  4 12:20:58 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transaction+types.XML", algorithm=MD5, response="68e3e8fcbfa76f5c115d252f6d075681", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000002d, cnonce="be24502228a76343"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transaction types.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:21:09 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=top+5+cities+with+the+largest+number+of+transactions.XML", algorithm=MD5, response="e262bf1ef1a88009e450e54c64785e5d", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000002e, cnonce="c6832fe55f63bb6d"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top 5 cities with the largest number of transactions.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:21:16 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transactions+after+8pm+with+a+value+over+100.XML", algorithm=MD5, response="f0905b45c2d5c1ed0be9eb8e8c8edd43", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=0000002f, cnonce="bc49be7b622205a1"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:21:37 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transactions+after+8pm+with+a+value+over+100.XML", algorithm=MD5, response="62da67f01930950547736ecb9a59304d", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000030, cnonce="dc7eb838a7c3dc82"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:23:39 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transactions+after+8pm+with+a+value+over+100.XML", algorithm=MD5, response="0818d5ff384408aebb5f141622b5cb72", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000031, cnonce="b3e107deb47dc8b2"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transactions after 8pm with a value over 100.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:23:46 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=transaction+types.XML", algorithm=MD5, response="f193a494b81941a7595e404a50c47d26", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000032, cnonce="e46da63bee4348be"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"transaction types.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:23:49 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=top+five+zip+codes+by+transaction+count.XML", algorithm=MD5, response="43e80444f97336804b0a0475871a1348", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000033, cnonce="f4f5cf64e2dd5a5f"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top five zip codes by transaction count.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+
+[NOTE] Wed May  4 12:28:35 2022
+GET Request [user:"" pass:""] path:"/query"
+    Headers [Host:"76.121.52.252:8080" Accept:"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9" Referer:"https://76.121.52.252:8080/reports" sec-ch-ua:"" Not A;Brand";v="99", "Chromium";v="99", "Opera";v="85"" Connection:"keep-alive" User-Agent:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36 OPR/85.0.4341.75" Authorization:"Digest username="demo", realm="demo", nonce="5441ea396aa0c162627e2b5885fb624d0000000d", uri="/query?report=top+ten+transactions+by+value.XML", algorithm=MD5, response="b079aa4b972ec0fd3ffc28286413ddde", opaque="11733c200778ce33060f31c9af70a870ba96ddd4", qop=auth, nc=00000034, cnonce="d8b06f2d6f212923"" Sec-Fetch-Dest:"document" Sec-Fetch-Mode:"navigate" Sec-Fetch-Site:"same-origin" Sec-Fetch-User:"?1" Accept-Encoding:"gzip, deflate, br" Accept-Language:"en-US,en;q=0.9" sec-ch-ua-mobile:"?0" sec-ch-ua-platform:""Windows"" Upgrade-Insecure-Requests:"1" ]
+    Query Args [report:"top ten transactions by value.XML" ]
+    Version [ HTTP/1.1 ] Requestor [ ::ffff:172.17.0.1 ] Port [ 46231 ]
+

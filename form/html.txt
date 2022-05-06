@@ -1,0 +1,40 @@
+<p> So I'm pretty sure we don't really need to worry about endpoints </p>
+<p> At least, we can deliver files, such as text, html, and images without directly interfacing with endpoints, using only the httpserver::file_response function. It's actually stupidly easy.</p>
+<p> </p>
+<p> 
+
+<form action="/content" method="post" target="_blank" rel="noopener">
+
+
+<class="button" value="BUTTON">
+	<button type="submit">POST</button>
+
+</form>
+
+
+<form action="/content" method="post" target="_blank" rel="noopener">
+
+<li>
+	<label for="name">POST:</label>
+	<input type="text" id="name" name="\n">
+
+<class="button">
+	<button type="submit">START!</button>
+</li>
+
+</form>
+<p> <br> <a href="/content/endpoint">This link is not a virus, really. For realz!</a><br></p>
+<p> <br> <a href="https://github.com/Smooth-Pacific/HTTPS_Server_WF/blob/feature/utpsrv.cpp"> Full code of server currently running this webpage:</a></p>
+<img src="/content/ralph" alt="Endpoints are for chumps">
+
+<form action="/content" method="get">
+<ul>
+<li>
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="user_name">
+
+<class="button">
+	<button type="submit">START!</button>
+</li>
+</ul>
+</form>
