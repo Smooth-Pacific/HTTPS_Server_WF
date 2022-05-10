@@ -9,32 +9,53 @@
 	std::cout << input;
 }*/
 
+//https://www.w3.org/TR/xml/
+//Legal characters are tab, carriage return, line feed, and the legal characters of Unicode and ISO/IEC 10646
+//Disallowed initial characters for Names include digits, diacritics, the full stop and the hyphen.
+
+
+
 class xml_element
 {
+	xml_element(std::string i_tag, int i_tab_count, std::string i_text = "", std::string i_attrname = "", std::string i_attribute = "") : is_root(false), attrname(i_attrname), attribute(i_attribute), tab_count(i_tab_count), tag(i_tag), text(i_text) {}
 public:
-	xml_element(std::string i_tag) :tag(i_tag), text(""), attribute(""), tab_count(0) {};
-	xml_element(std::string i_tag, std::string i_text) :tag(i_tag), text(i_text), attribute(""), tab_count(0) {};
-	xml_element(std::string i_tag, std::string i_text, std::string i_attribute) :tag(i_tag), text(i_text), attribute(i_attribute), tab_count(0) {};
+	xml_element(std::string i_tag, std::string i_text = "", std::string i_attrname = "", std::string i_attribute = "") :tag(i_tag), text(i_text), attrname(i_attrname), attribute(i_attribute), is_root(true), tab_count(0) {}
+	
+	bool is_root;
 	std::string tag;
 	std::string text;
 	std::string attribute;
+	std::string attrname;
 	int tab_count;
 	std::vector<xml_element> children;
 
-	void add_child(std::string i_tag, std::string i_text = "", std::string i_attribute = "")
+	size_t add_child(std::string i_tag, std::string i_text = "", std::string i_attrname = "", std::string i_attribute = "")
 	{
-		children.push_back(xml_element{ i_tag, i_text, i_attribute });
-		children.back().tab_count = tab_count + 1;
+		children.push_back(xml_element{ i_tag, (tab_count + 1), i_text, i_attrname, i_attribute});
+		//children.back().tab_count = tab_count + 1;
+		return children.size() -1;	// -1 to convert from size to index
 	}
 
 	void print(std::ofstream& output)
 	{
+		if (is_root)
+		{
+			output << "<?xml version=\"1.0\"?>" << std::endl;
+		}
+
 		for (int i = 0; i < tab_count; i++)
 		{
 			output << "\t";
 		}
 
-		output << "<" << tag << (attribute != "" ? " ":"") << attribute << ">" << text;
+		//output << "<" << tag << (attribute != "" ? " ":"") << attribute << ">" << text;
+		
+		output << "<" << tag;
+		if (attribute != "")
+		{
+			output << " " << attrname << "=\"" << attribute << "\"";
+		}
+		output << ">" << text;
 
 		if (children.size() != 0)
 		{

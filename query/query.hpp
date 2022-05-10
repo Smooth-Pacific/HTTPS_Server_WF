@@ -12,6 +12,68 @@
 #include "../parse/defines.hpp"
 #include "../query/xml_ele.hpp"
 
+#define TRANSACTION_SIZE 20
+inline size_t AddTransaction(std::shared_ptr<xml_element> pxml, const std::vector<std::string>& content)
+{
+	if (content.size() != TRANSACTION_SIZE)
+	{
+		return -1;
+	}
+
+	size_t index = pxml->add_child("Transaction", "", content[Transaction_ID]);	//add a new xml element for this group
+	pxml->children.at(index).add_child("UserID", content[User]);
+	pxml->children.at(index).add_child("User", content[EnrichedUser], content[User]);
+	pxml->children.at(index).add_child("User_Card_ID", content[User] + "::" + content[Card]);
+	pxml->children.at(index).add_child("Card", content[EnrichedCard]);
+	pxml->children.at(index).add_child("Year", content[Year]);
+	pxml->children.at(index).add_child("Month", content[Month]);
+	pxml->children.at(index).add_child("Day", content[Day]);
+	pxml->children.at(index).add_child("Time", content[Time]);
+	pxml->children.at(index).add_child("Amount", content[Amount]);
+	pxml->children.at(index).add_child("Transaction Type", content[Transaction_Type]);
+	pxml->children.at(index).add_child("Merchant_ID", content[Merchant_Name]);
+	pxml->children.at(index).add_child("Merchant Name", content[EnrichedMerchant_Name]);
+	pxml->children.at(index).add_child("Merchant City", content[Merchant_City]);
+	pxml->children.at(index).add_child("Merchant State", content[Merchant_State]);
+	pxml->children.at(index).add_child("Zip", content[Zip]);
+	pxml->children.at(index).add_child("MCC_ID", content[MCC]);
+	pxml->children.at(index).add_child("MCC", content[EnrichedMCC]);
+	pxml->children.at(index).add_child("Errors", content[Errors]);
+	pxml->children.at(index).add_child("Is_Fraud", content[Is_Fraud]);
+	return index;
+	return index;
+}
+
+inline size_t AddTransaction(xml_element& pxml, const std::vector<std::string>& content)
+{
+	if (content.size() != TRANSACTION_SIZE)
+	{
+		return -1;
+	}
+
+	size_t index = pxml.add_child("Transaction", "", content[Transaction_ID]);	//add a new xml element for this group
+	pxml.children.at(index).add_child("UserID", content[User]);
+	pxml.children.at(index).add_child("User", content[EnrichedUser], content[User]);
+	pxml.children.at(index).add_child("User_Card_ID", content[User] + "::" + content[Card]);
+	pxml.children.at(index).add_child("Card", content[EnrichedCard]);
+	pxml.children.at(index).add_child("Year", content[Year]);
+	pxml.children.at(index).add_child("Month", content[Month]);
+	pxml.children.at(index).add_child("Day", content[Day]);
+	pxml.children.at(index).add_child("Time", content[Time]);
+	pxml.children.at(index).add_child("Amount", content[Amount]);
+	pxml.children.at(index).add_child("Transaction Type", content[Transaction_Type]);
+	pxml.children.at(index).add_child("Merchant_ID", content[Merchant_Name]);
+	pxml.children.at(index).add_child("Merchant Name", content[EnrichedMerchant_Name]);
+	pxml.children.at(index).add_child("Merchant City", content[Merchant_City]);
+	pxml.children.at(index).add_child("Merchant State", content[Merchant_State]);
+	pxml.children.at(index).add_child("Zip", content[Zip]);
+	pxml.children.at(index).add_child("MCC_ID", content[MCC]);
+	pxml.children.at(index).add_child("MCC", content[EnrichedMCC]);
+	pxml.children.at(index).add_child("Errors", content[Errors]);
+	pxml.children.at(index).add_child("Is_Fraud", content[Is_Fraud]);
+	return index;
+}
+
 class query_bot
 {
 public:
@@ -72,7 +134,7 @@ public:
 };
 
 
-void DoQuery(std::shared_ptr<query_bot> query, std::vector<std::string> content)
+void DoQuery(std::shared_ptr<query_bot> query, const std::vector<std::string>& content)
 {
 	query->run_query(content);
 }
@@ -221,6 +283,9 @@ public:
 				//add the contents of the current transaction to the vector
 				std::string content_as_string = vector_to_string(content);
 				results.push_back({ content_as_string, current_value });
+				
+				size_t index = queryxml->add_child("Amount", "$" + std::to_string(results.back().second));	//this creates the element with the amount as the tag and the transaction as content
+				AddTransaction(queryxml->children[index], content);
 			}
 		}
 
@@ -234,7 +299,7 @@ public:
 	void print_query()
 	{
 		//post-processing  - populate xml entity with data from results vector
-
+		
 		for (auto i = results.begin(); i != results.end(); i++)
 		{
 			queryxml->add_child("$" + std::to_string(i->second), i->first);	//this creates the element with the amount as the tag and the transaction as content
